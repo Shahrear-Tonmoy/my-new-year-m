@@ -197,7 +197,7 @@ div {
   }
 
   /* best offer */
-  .best-offer {
+  .NBD {
     max-width: 1320px;
     height: 482px;
     flex-shrink: 100%;
@@ -211,7 +211,7 @@ div {
     max-height: 482px;
     background-size: 100% 100%;
   }
-  #new-best-offer {
+  #NBO {
     margin: auto;
     padding-top: 104px;
     color: #f00;
@@ -220,7 +220,7 @@ div {
     font-style: normal;
     line-height: normal;
   }
-  #comming-soon {
+  #CS {
     margin-top: 10px;
     color: #070211;
     font-family: Merriweather;
@@ -248,7 +248,7 @@ div {
     border: 15px solid #f00;
     justify-content: center;
   }
-  #image4 {
+  #img4 {
     padding: 40px;
     border-radius: 400px;
     justify-content: center;
@@ -281,9 +281,194 @@ div {
     font-style: normal;
     line-height: 32px;
   }
-  #image5 {
+  #img5 {
     padding: 0%;
     max-width: 140px;
     max-height: 140px;
     flex-shrink: 100%;
+  }
+  /* holidays sale */
+  .div6 {
+    width: 1320px;
+    margin: 200px auto;
+    min-height: 10px;
+    text-align: center;
+  }
+  
+  .div6-p1 {
+    color: #070211;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+  }
+  
+  .div6-p2 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0;
+  }
+  
+  .div6-p2 span {
+    color: #f00;
+  }
+  
+  .div6-p3 {
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    margin: 0;
+  }
+  
+  .salePics {
+    position: relative;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .salePics1 {
+    height: 400;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .salePics2 {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .salePics3 {
+    top: 70px;
+    right: 270px;
+    position: absolute;
+  }
+  
+  .salePics4 {
+    position: absolute;
+    height: 80%;
+    bottom: 30px;
+    left: 80px;
+  }
+
+/* awesome portfolio */
+  .div7 {
+    margin: auto;
+    margin-top: 240px;
+    max-width: 1320px;
+    height: 1320px;
+    background-size: 100% 100%;
+  }
+  #tbg {
+    margin: 0px;
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  #OAP {
+    margin: 0px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  #sp7 {
+    max-width: 896px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  #table1 {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    gap: 15px;
+  }
+  #table1 img:hover {
+    transform: scale(1.03);
+  }
+
+  /* subscribe */
+  .div8 {
+    margin: auto;
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 100%;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    background-size: 100% 100%;
+    text-align: center;
+  }
+  #img8 {
+    padding-top: 80px;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+  }
+  #sn {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  #sp8 {
+    text-align: center;
+    max-width: 896px;
+    color: rgba(7, 2, 17, 0.6);
+    margin: auto;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 32px;
+  }
+  .div8 input {
+    margin: auto;
+    width: 438px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 20px 15px;
+    border: none;
+    outline: none;
+    border-radius: 50px 0px 0px 50px;
+  }
+  .div8 button {
+    width: 200px;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    outline: none;
+    background: #f00;
+    border-radius: 0px 50px 50px 0px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .div8 button:hover {
+    background: #070211;
   }
