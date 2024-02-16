@@ -137,3 +137,61 @@ div {
     border: 0px;
     cursor: pointer;
   }
+
+  /* park hotel */
+  .park-hotel {
+    margin: auto;
+    margin-top: 120px;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0.1) 0%,
+      rgba(255, 0, 0, 0) 100%
+    );
+  }
+  #blk {
+    margin: auto;
+    padding-top: 100px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+  }
+  #red {
+    color: #f00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+  }
+  #button2 {
+    margin-top: 48px;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: 0px;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #f00;
+    cursor: pointer;
+  }
