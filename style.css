@@ -197,7 +197,7 @@ div {
   }
 
   /* best offer */
-  .NBD {
+  .best-offer {
     max-width: 1320px;
     height: 482px;
     flex-shrink: 100%;
@@ -211,7 +211,7 @@ div {
     max-height: 482px;
     background-size: 100% 100%;
   }
-  #NBO {
+  #new-best-offer {
     margin: auto;
     padding-top: 104px;
     color: #f00;
@@ -220,7 +220,7 @@ div {
     font-style: normal;
     line-height: normal;
   }
-  #CS {
+  #coming-soon {
     margin-top: 10px;
     color: #070211;
     font-family: Merriweather;
@@ -230,7 +230,7 @@ div {
     line-height: normal;
     text-transform: capitalize;
   }
-  #SP2 {
+  #text1 {
     margin-top: 0px;
     max-width: 393px;
     color: rgba(7, 2, 17, 0.6);
@@ -271,7 +271,7 @@ div {
     font-weight: 600;
     line-height: normal;
   }
-  #sp3 {
+  #text2 {
     padding-top: 0%;
     margin-top: 0px;
     max-width: 276px;
@@ -288,14 +288,14 @@ div {
     flex-shrink: 100%;
   }
   /* holidays sale */
-  .div6 {
+  .holidays-sale {
     width: 1320px;
     margin: 200px auto;
     min-height: 10px;
     text-align: center;
   }
   
-  .div6-p1 {
+  .holidays-sale-p1 {
     color: #070211;
     font-family: "Inter";
     font-size: 24px;
@@ -304,7 +304,7 @@ div {
     margin: 0;
   }
   
-  .div6-p2 {
+  .holidays-sale-p2 {
     color: #070211;
     font-family: "Merriweather";
     font-size: 72px;
@@ -314,11 +314,11 @@ div {
     margin: 0;
   }
   
-  .div6-p2 span {
+  .holidays-sale-p2 span {
     color: #f00;
   }
   
-  .div6-p3 {
+  .holidays-sale-p3 {
     color: rgba(7, 2, 17, 0.6);
     text-align: center;
     font-family: "Inter";
@@ -471,4 +471,60 @@ div {
   }
   .div8 button:hover {
     background: #070211;
+  }
+
+  /* foot */
+  footer {
+    background: #070211;
+    margin: 10% 0% 0% 0%;
+    max-height: 600px;
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 100px 150px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  #pw {
+    display: flex;
+  }
+  #fimg {
+    padding: 32px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  footer > div {
+    display: flex;
+  
+    justify-content: space-between;
+    margin: 30px 0px;
+  }
+  #address {
+    max-width: 400px;
+  }
+  .footer-two {
+    justify-content: center;
+    gap: 10px;
+  }
+  footer button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+  footer button:hover {
+    color: orange;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
   }
